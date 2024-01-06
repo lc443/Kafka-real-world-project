@@ -20,7 +20,7 @@ public class WikimediaChangesProducer {
     private KafkaTemplate<String, String> kafkaTemplate;
 
     public void sendMessage() throws InterruptedException {
-        String topic = "wikimedia_recenchange";
+        String topic = "wikimedia_recentchange";
 
         log.info(String.format("Message sent"));
 
